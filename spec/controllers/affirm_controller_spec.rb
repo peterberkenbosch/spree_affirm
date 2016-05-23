@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Spree::AffirmController do
+describe Spree::AffirmController, type: :controller do
   let(:user) { FactoryGirl.create(:user) }
   let(:checkout) { FactoryGirl.build(:affirm_checkout) }
   let(:bad_billing_checkout) { FactoryGirl.build(:affirm_checkout, billing_address_mismatch: true) }
