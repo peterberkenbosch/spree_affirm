@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'solidus'
 
-  s.add_development_dependency 'factory_girl', '~> 4.2'
-  s.add_development_dependency 'ffaker', '~> 1.16'
-  s.add_development_dependency 'rspec-rails',  '~> 2.13'
+  s.add_development_dependency 'factory_girl'
+  s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'simplecov', '~> 0.9'
   s.add_development_dependency 'simplecov-rcov', '~> 0.2'
   s.add_development_dependency 'sqlite3', '~> 1.3'
