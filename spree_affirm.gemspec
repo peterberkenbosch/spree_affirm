@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'solidus'
+  s.add_dependency 'solidus', '1.4.0'
+  s.add_dependency 'solidus_gateway'
 
   s.add_development_dependency 'factory_girl'
   s.add_development_dependency 'ffaker'
